@@ -15,6 +15,7 @@ The project combines:
 - Business Recommendations
 
 ---
+
 # 🛠️ Tools & Technologies
 
 ### IDE
@@ -70,8 +71,6 @@ The primary objective is to:
 ## 🗄️ SQL Business Analysis
 
 Using MySQL Workbench, I solved business-oriented SQL problems to extract actionable insights from customer transaction data.
-
-## 🗄️ SQL Business Analysis
 
 SQL queries are documented in `Business SQL_Queries.md` along with brief business objectives, SQL concepts, and key insights for selected analytical problems.
 
@@ -239,6 +238,7 @@ Based on the analysis:
 ---
  
 
+
 # 📁 Repository Structure
 
 ```
@@ -247,13 +247,14 @@ Customer-Analytics-Business-Analysis/
 ├── README.md
 │
 ├── data
-│   └── cleaned_data.csv
+│   └── customer_data.csv
 │
 ├── sql
 │   └── Business-SQL Queries.sql
 │
 ├── python
-│   └── customer_analytics.py
+│   ├── Customer_Analytics.py
+│   └── cleaned_data.csv
 │   
 |
 ├── tableau
